@@ -3,7 +3,7 @@ block tituloPagina
     | Portada -
 
 block header
-
+    include ../templates/__menuLayout.pug
 
 block titulo
     .titulo-seccion--h3
@@ -11,6 +11,9 @@ block titulo
 
 
 block principal
+    .titulo-seccion--h3
+        h3 Contenido de bloque principal.
 
 
 block piePagina
+    include ../templates/__footerLayout.pug

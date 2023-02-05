@@ -1,0 +1,110 @@
+.articuloBlog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 98%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+.articuloBlog article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 48%;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 1rem 0.5rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid #AAAAAA;
+  -webkit-box-shadow: 0 1px 3px #AAAAAA;
+          box-shadow: 0 1px 3px #AAAAAA;
+}
+.articuloBlog article img {
+  display: inline-block;
+  width: 120px;
+  margin: 0 auto;
+}
+.articuloBlog article h3 {
+  display: inline-block;
+  width: 100%;
+}
+.articuloBlog article time {
+  display: inline-block;
+  width: 100%;
+}
+
+.videoContent {
+  width: 700px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.audioContent {
+  width: 700px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.titulo-seccion--h3 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.titulo-seccion--h3 h3 {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 3rem auto;
+}
+
+.separadorContenido {
+  width: 100%;
+  height: 3rem;
+  background-color: white;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.toTop {
+  text-decoration: none;
+  color: #09A65A;
+  font-weight: bold;
+}
+
+.tablaDiaria {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #424242;
+}
+.tablaDiaria td {
+  border: 1px solid #848484;
+  padding-left: 0.5rem;
+  font-size: 14px;
+}
+
+tr.encabezados {
+  text-align: center;
+  border-bottom: 1px solid #848484;
+}
+tr.encabezados > th {
+  border: 1px solid #848484;
+}
