@@ -1,3 +1,11 @@
+#content-portada {
+  width: 69%;
+}
+
+#content-sidebar {
+  width: 30%;
+}
+
 .articuloBlog {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -88,23 +96,4 @@
   text-decoration: none;
   color: #09A65A;
   font-weight: bold;
-}
-
-.tablaDiaria {
-  width: 80%;
-  margin: 0 auto;
-  border: 1px solid #424242;
-}
-.tablaDiaria td {
-  border: 1px solid #848484;
-  padding-left: 0.5rem;
-  font-size: 14px;
-}
-
-tr.encabezados {
-  text-align: center;
-  border-bottom: 1px solid #848484;
-}
-tr.encabezados > th {
-  border: 1px solid #848484;
 }

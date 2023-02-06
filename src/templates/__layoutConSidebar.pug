@@ -21,7 +21,11 @@ html(lang="es")
         block titulo
             h3 titulo por defecto
         main
-            section
+            section#principal.d-flex.container
+
+                block sidebar
+                    div#content-sidebar
+                        h2 Contenido por defecto
                 block principal
                     div#content-portada
                         h1 Contenido por Defecto

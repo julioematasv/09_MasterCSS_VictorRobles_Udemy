@@ -1,0 +1,46 @@
+extends ../templates/__layoutPrincipal
+block tituloPagina
+    | Contacto -
+
+block header
+    include ../templates/__menuLayout.pug
+
+block titulo
+    .titulo-seccion--h3
+        h3 Formulario de Contacto
+
+block principal
+    div.container.col-md-12
+        form.row.g-3(action="#")
+            div.d-flex.flex-row.justify-content-center
+                div.col-md-6.bg-info.text-white.px-5
+                    div.mb-3
+                        label.form-label(for="nombre") Nombre
+                        input.form-control(name="nombre" type="text" id="nombre" placeholder="Nombre")
+
+                    div.mb-3
+                        label.form-label(for="apellido") Apellido
+                        input.form-control(name="apellido" type="text" id="apellido" placeholder="Apellido")
+
+                    div.mb-3
+                        label.form-label(for="email") e-Mail
+                        input.form-control(name="email" type="email" id="email" placeholder="e-mail")
+                    div.mb-3
+                        label.form-label(for="edad") Edad
+                        input.form-control(name="edad" type="email" id="edad" placeholder="Edad")
+                    div.mb-3
+                        label.form-label(for="genero") Genero
+                        select(name="genero" id="genero")
+                            option(value="Elegir") Elegir Uno
+                            option(value="Hombre") Hombre
+                            option(value="Mujer") Mujer
+                            option(value="Ninguno") Ninguno
+                    div.mb-3
+                        label.form-label(for="motivo") Motivo Consulta
+                        textarea.form-control(name="motivo" id="motivo" rows="5")
+                    div.mb-3
+                        input.form-control.bg-primary.text-white(type="submit", value="Enviar")
+
+
+block piePagina
+    include ../templates/__footerLayout.pug
